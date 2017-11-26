@@ -1,0 +1,110 @@
+body
+{
+	font-family: "Helvetica";
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+::-webkit-scrollbar
+{
+      height: 5px;
+      width: 5px;
+}
+::-webkit-scrollbar-thumb 
+{
+	width: 5px;
+	background-color: rgba(0, 0, 0, 0.2); 
+}
+hr
+{
+    margin: 0px;
+    padding: 0px;
+}
+.sidenav
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    overflow-x: hidden;
+    padding-top: 6vh;
+    transition: 0.5s;
+}
+.sidenav a
+{
+	padding-right: 1vh;
+    padding-top: 2vh;
+    padding-left: 1vh;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus
+{
+    color: #f1f1f1;
+}
+.sidenav .closebtn
+{
+    position: absolute;
+    top: 0;
+    right: 2vw;
+    font-size: 5vh;
+}
+#myCountry
+{
+    font-size: 3vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 1vh;
+    color: #818181;
+}
+#titleBar
+{
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    background-color: lightblue;
+    height: 6vh;
+}
+#hamburger
+{
+    float: left;
+}
+#gslTitle
+{
+    font-size: 3vh;
+    font-weight: bold;
+}
+#speakerList
+{
+    padding-right: 1vh;
+    padding-left: 1vh;
+    font-size: 2.5vh;
+    text-align: center;
+    background-color: lightgreen;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    width: 60vw;
+    height: 75vh;
+    overflow-y: auto;
+}
+#speakerList div
+{   
+    padding: 1vh;
+}
+#speakerList div:hover
+{   
+    background-color: rgba(0,0,0,0.1);
+}
+#addToGSL
+{
+    margin-top: 1vh;
+    float: left;
+    z-index: 1;
+    margin-left: 50vw;
+}

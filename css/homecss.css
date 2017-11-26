@@ -1,0 +1,166 @@
+body
+{
+	font-family: "Helvetica";
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+::-webkit-scrollbar
+{
+      height: 5px;
+      width: 5px;
+}
+::-webkit-scrollbar-thumb 
+{
+	width: 5px;
+	background-color: rgba(0, 0, 0, 0.2); 
+}
+.sidenav
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 6vh;
+    transition: 0.5s;
+}
+.sidenav a
+{
+	padding-right: 1vh;
+    padding-top: 2vh;
+    padding-left: 1vh;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav p
+{
+	padding-right: 1vh;
+    padding-top: 2vh;
+    padding-left: 1vh;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus
+{
+    color: #f1f1f1;
+}
+#myCountry
+{
+	font-size: 3vh;
+	padding-right: 1vh;
+	padding-left: 1vh;
+	color: #818181;
+}
+.sidenav .closebtn
+{
+    position: absolute;
+    top: 0;
+    right: 2vw;
+    font-size: 5vh;
+}
+#navigationPane
+{
+	float: left;
+	width: 30vw;
+	height: 100vh;
+}
+#tab1
+{
+	height: 6vh;
+	background-color: deepskyblue;
+	padding: 1vh;
+}
+#hamburger
+{
+	margin-top: 1vh;
+	float: left;
+}
+#notificationIcon
+{
+	margin-top: 1vh;
+	float: right;
+}
+#countrylistArea
+{
+	font-size: 2.5vh;
+	height: 90vh;
+	padding: 1vh;
+	background-color: lightgreen;
+	overflow-y: auto;
+}
+#messagePane
+{
+	margin-left: 30vw;
+}
+#tab2
+{
+	background-color: deepskyblue;
+	padding: 1vh;
+	height: 6vh;
+}
+#countryDp
+{
+	width: 10vh;	
+	height: 6vh;
+	float: left;
+}
+#countryName
+{
+	float: left;
+	position: absolute;
+	font-weight: bold;
+	font-size: 2.5vh;
+	margin-top: 2vh;
+	margin-left: 1vw;
+	display: inline-block;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+#messagesArea
+{
+	overflow-x: hidden;
+	font-size: 2.5vh;
+	padding: 1vh;
+	overflow-y: auto;
+	height: 80vh;
+}
+#inputArea
+{
+	height: 10vh;
+	background-color: deepskyblue;
+}
+#msg
+{
+	resize: none;
+	font-size: 2vh;
+	float: left;
+	margin-left: 1vw;
+	margin-top: 1.5vh;
+	height: 6.5vh;
+}
+#sendOptions
+{
+	float: left;
+}
+#viaEbOption
+{
+	margin-top: 1.5vh;
+	margin-left: 1vw;
+	font-size: 1.5vh;
+}
+#sendit
+{
+	margin-top: 0.5vh;
+	height: 4vh;
+	width: 4vh;
+}

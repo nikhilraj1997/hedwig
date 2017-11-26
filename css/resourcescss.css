@@ -1,0 +1,156 @@
+body
+{
+	font-family: "Helvetica";
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+::-webkit-scrollbar
+{
+      height: 5px;
+      width: 5px;
+}
+::-webkit-scrollbar-thumb 
+{
+	width: 5px;
+	background-color: rgba(0, 0, 0, 0.2); 
+}
+.sidenav
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    overflow-x: hidden;
+    padding-top: 6vh;
+    transition: 0.5s;
+}
+.sidenav a
+{
+	padding-right: 1vh;
+    padding-top: 2vh;
+    padding-left: 1vh;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus
+{
+    color: #f1f1f1;
+}
+.sidenav .closebtn
+{
+    position: absolute;
+    top: 0;
+    right: 2vw;
+    font-size: 5vh;
+}
+#myCountry
+{
+    font-size: 3vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-bottom: 1vh;
+    color: #818181;
+}
+#titleBar
+{
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    background-color: lightblue;
+    height: 6vh;
+}
+#hamburger
+{
+    float: left;
+}
+#resourcesTitle
+{
+    font-size: 3vh;
+    font-weight: bold;
+}
+.modal-header
+{
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+.modal-body
+{
+    padding: 2px 16px;
+    overflow-y: auto;
+    height: 70vh;
+}
+.modal-content
+{
+    display: none;
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.close
+{
+    color: grey;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+#ropButton
+{
+    text-align: center;
+    background-color: red;
+    height: 18.6vh;
+}
+#pamButton
+{
+    text-align: center;
+    background-color: yellow;
+    height: 18.6vh;
+}
+#resButton
+{
+    text-align: center;
+    background-color: lightgreen;
+    height: 18.6vh;
+}
+#oisButton
+{
+    text-align: center;
+    background-color: lightblue;
+    height: 18.6vh;
+}
+#srButton
+{
+    text-align: center;
+    background-color: orange;
+    height: 18.6vh;
+}
